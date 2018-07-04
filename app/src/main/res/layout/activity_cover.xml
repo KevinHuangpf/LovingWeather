@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:background="#1e97d0"
+    tools:context="com.kevinhuang.lovingweather.CoverActivity"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivCoverImage"
+        android:src="@drawable/app_cover_image_01"
+        />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/ivCoverStr01"
+        android:src="@drawable/app_cover_str_01"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="480dp"
+        android:text="先进交通技术实验室"
+        android:textSize="25dp"
+        android:textColor="#ffff"
+        android:id="@+id/tvCoverLab"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:text="西安电子科技大学"
+        android:textSize="20dp"
+        android:textColor="#ffff"
+        android:id="@+id/tvCoverSchool"
+        />
+
+
+
+</RelativeLayout>

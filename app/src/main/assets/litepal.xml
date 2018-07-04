@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+
+    <dbname value="loving_weather" />
+
+    <version value="1" />
+
+    <list>
+        <mapping class="com.kevinhuang.lovingweather.db.Province" />
+        <mapping class="com.kevinhuang.lovingweather.db.City" />
+        <mapping class="com.kevinhuang.lovingweather.db.County" />
+    </list>
+
+</litepal>
